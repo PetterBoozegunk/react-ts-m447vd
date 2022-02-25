@@ -1,0 +1,24 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.8rem;
+}
+
+main {
+  text-align: center;
+}
+
+.logo {
+  background-image: url(https://utopiamusic.com/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: var(--logo-size);
+  width: var(--logo-size);
+  margin: 0 auto;
+  border-radius: 1rem;
+}

@@ -1,0 +1,30 @@
+@import '../../variables.css';
+
+.list-countries {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+
+  text-align: left;
+
+  max-height: 64rem;
+  max-width: 80rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.list-countries li {
+  width: calc(25% - 4rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.list-countries li.selected,
+.list-countries li:hover {
+  color: var(--main-pink);
+}
